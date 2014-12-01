@@ -484,7 +484,7 @@ void Minesweeper::startGame(int rows = 10, int columns = 10) {
         else if (printMines)
             cout << "\nMines: " << mines << "\tFlags: " << flags << endl;
         if (showCredits) {
-            cout << "\nCoded by Justin Oroz";
+            cout << "\nCoded by Justin Oroz\t\t\tjustin.oroz@me.com\n";
         }
         promptUser();
         checkwin();
