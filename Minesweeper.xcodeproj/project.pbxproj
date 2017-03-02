@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D01A337619FEE5A0009EA2AA /* juice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D01A337419FEE5A0009EA2AA /* juice.cpp */; };
-		D0ACAD5C19F8781200EC2D46 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0ACAD5B19F8781200EC2D46 /* main.cpp */; };
+		D065BDA31E68442B0085BDAF /* juice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D065BDA01E68442B0085BDAF /* juice.cpp */; };
+		D065BDA41E68442B0085BDAF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D065BDA11E68442B0085BDAF /* main.cpp */; };
+		D065BDA51E68442B0085BDAF /* Minesweeper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D065BDA21E68442B0085BDAF /* Minesweeper.cpp */; };
+		D065BDAA1E6847230085BDAF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D065BDA91E6847230085BDAF /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,11 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D01A337419FEE5A0009EA2AA /* juice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = juice.cpp; sourceTree = "<group>"; };
-		D01A337519FEE5A0009EA2AA /* juice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = juice.h; sourceTree = "<group>"; };
+		D01A337519FEE5A0009EA2AA /* juice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = juice.h; path = include/juice.h; sourceTree = "<group>"; };
+		D065BD9C1E6841F70085BDAF /* Minesweeper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Minesweeper.h; path = include/Minesweeper.h; sourceTree = "<group>"; };
+		D065BDA01E68442B0085BDAF /* juice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = juice.cpp; path = src.cpp/juice.cpp; sourceTree = "<group>"; };
+		D065BDA11E68442B0085BDAF /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src.cpp/main.cpp; sourceTree = "<group>"; };
+		D065BDA21E68442B0085BDAF /* Minesweeper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Minesweeper.cpp; path = src.cpp/Minesweeper.cpp; sourceTree = "<group>"; };
+		D065BDA91E6847230085BDAF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		D0ACAD5819F8781200EC2D46 /* Minesweeper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Minesweeper; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0ACAD5B19F8781200EC2D46 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		D0B0E49519FEE429003C1F91 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		D0B0E49519FEE429003C1F91 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = main.h; path = include/main.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +47,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D065BDA61E6844390085BDAF /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D065BDA01E68442B0085BDAF /* juice.cpp */,
+				D065BDA11E68442B0085BDAF /* main.cpp */,
+				D065BDA21E68442B0085BDAF /* Minesweeper.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		D065BDA71E6844410085BDAF /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D0B0E49519FEE429003C1F91 /* main.h */,
+				D065BD9C1E6841F70085BDAF /* Minesweeper.h */,
+				D01A337519FEE5A0009EA2AA /* juice.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
 		D0ACAD4F19F8781200EC2D46 = {
 			isa = PBXGroup;
 			children = (
@@ -61,10 +86,9 @@
 		D0ACAD5A19F8781200EC2D46 /* Minesweeper */ = {
 			isa = PBXGroup;
 			children = (
-				D0B0E49519FEE429003C1F91 /* main.h */,
-				D0ACAD5B19F8781200EC2D46 /* main.cpp */,
-				D01A337519FEE5A0009EA2AA /* juice.h */,
-				D01A337419FEE5A0009EA2AA /* juice.cpp */,
+				D065BDA91E6847230085BDAF /* README.md */,
+				D065BDA71E6844410085BDAF /* include */,
+				D065BDA61E6844390085BDAF /* src */,
 			);
 			path = Minesweeper;
 			sourceTree = "<group>";
@@ -95,7 +119,7 @@
 		D0ACAD5019F8781200EC2D46 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = jmoroz;
 				TargetAttributes = {
 					D0ACAD5719F8781200EC2D46 = {
@@ -125,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D01A337619FEE5A0009EA2AA /* juice.cpp in Sources */,
-				D0ACAD5C19F8781200EC2D46 /* main.cpp in Sources */,
+				D065BDA31E68442B0085BDAF /* juice.cpp in Sources */,
+				D065BDA41E68442B0085BDAF /* main.cpp in Sources */,
+				D065BDAA1E6847230085BDAF /* README.md in Sources */,
+				D065BDA51E68442B0085BDAF /* Minesweeper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +178,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;

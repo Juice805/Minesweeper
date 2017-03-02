@@ -3,6 +3,8 @@ Minesweeper
 
 a bash version of Minesweeper
 
-This was an assignment for CS 140 (C++)
+An assignment for CS 140 (C++)
 
-I've added much more than was required, and I will add a feature list soon.
+ - Choosable board size
+ - Flag squares for suspected bombs. Unable to detonate Flagged squares.
+ - For other commands follow on screen instructions or type "help"
