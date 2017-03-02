@@ -28,9 +28,9 @@
 /* Begin PBXFileReference section */
 		D01A337519FEE5A0009EA2AA /* juice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = juice.h; path = include/juice.h; sourceTree = "<group>"; };
 		D065BD9C1E6841F70085BDAF /* Minesweeper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Minesweeper.h; path = include/Minesweeper.h; sourceTree = "<group>"; };
-		D065BDA01E68442B0085BDAF /* juice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = juice.cpp; path = src.cpp/juice.cpp; sourceTree = "<group>"; };
-		D065BDA11E68442B0085BDAF /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src.cpp/main.cpp; sourceTree = "<group>"; };
-		D065BDA21E68442B0085BDAF /* Minesweeper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Minesweeper.cpp; path = src.cpp/Minesweeper.cpp; sourceTree = "<group>"; };
+		D065BDA01E68442B0085BDAF /* juice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = juice.cpp; path = src/juice.cpp; sourceTree = "<group>"; };
+		D065BDA11E68442B0085BDAF /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = "<group>"; };
+		D065BDA21E68442B0085BDAF /* Minesweeper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Minesweeper.cpp; path = src/Minesweeper.cpp; sourceTree = "<group>"; };
 		D065BDA91E6847230085BDAF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		D0ACAD5819F8781200EC2D46 /* Minesweeper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Minesweeper; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B0E49519FEE429003C1F91 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = main.h; path = include/main.h; sourceTree = "<group>"; };
