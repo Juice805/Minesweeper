@@ -1,7 +1,7 @@
 Minesweeper
 ===========
 
-a bash version of Minesweeper
+A Minesweeper game written in C++ to be played in a terminal
 
 An assignment for CS 140 (C++)
 
