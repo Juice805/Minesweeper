@@ -74,6 +74,7 @@
 				D0ACAD5919F8781200EC2D46 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		D0ACAD5919F8781200EC2D46 /* Products */ = {
 			isa = PBXGroup;
