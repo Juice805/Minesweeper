@@ -49,7 +49,9 @@ public:
 
 	void promptUser(); //prompts user for their input (takes care of each turn)
 	void printScanfield(); //prints the board
-	void clearscreen(){cout << string(100, '\n');} //empties the screen
+	void clearscreen(){ //empties the screen
+		if (system("CLS 2>/dev/null") != 0) system("clear 2>/dev/null");
+	}
 	bool restart = false;
 	void replay();
 	bool isReplayed(){
